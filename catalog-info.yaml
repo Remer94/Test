@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Test"
+  description: "Test"
+  annotations:
+    github.com/project-slug: Remer94/Test
+    backstage.io/techdocs-ref: url:https://github.com/Remer94/Test.git
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Remer94"
